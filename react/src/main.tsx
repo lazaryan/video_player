@@ -1,6 +1,7 @@
-import React from 'react'
-import { createRoot } from 'react-dom/client'
-import VideoPlayer from './VideoPlayer'
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+
+import VideoPlayer from './VideoPlayer';
 
 
 if (import.meta.env.DEV) {
