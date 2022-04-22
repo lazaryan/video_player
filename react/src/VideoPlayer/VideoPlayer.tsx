@@ -1,8 +1,10 @@
 import { FC } from 'react';
 
+import cssClasses from './styles.module.less';
+
 const VideoPlayer: FC = () => {
   return (
-    <div>
+    <div className={cssClasses['player-wrapper']}>
       my video player
     </div>
   )
